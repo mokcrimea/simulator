@@ -2,7 +2,7 @@
     /**
      * return unchanged if array passed, otherwise wrap in an array
      * @param  {Object|Array|Null} arr any object
-     * @return {Array}
+     * @returns {Array}
      */
     function ensureAnArray (arr) {
         if (Object.prototype.toString.call(arr) === '[object Array]') {
